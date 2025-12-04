@@ -6,3 +6,17 @@
 // If a number is not divisible by either 3 or 5, log the number.
 // Remember to commit your solution once it is working
 
+let i = 1;
+
+for(let i = 1; i <= 100; i++){
+        
+    if (i % 3 == 0 && i % 5 == 0){
+        console.log(`${i} Fizz Buzz`);
+    } else if(i % 3 == 0){
+        console.log(`${i} Fizz`);
+    }else if (i % 5 == 0){
+        console.log(`${i} Buzz`);
+    }else{
+        console.log(i)
+    }
+}
